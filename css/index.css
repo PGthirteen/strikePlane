@@ -1,0 +1,14 @@
+#play-box{
+	width: 300px;
+	height: 568px;
+	margin: auto;
+	margin-top: 80px;
+	background: url('../images/bg2.png') no-repeat center center;
+	position: relative;
+}
+.play{
+	width: 66px;
+	height: 80px;
+	position: absolute;
+	background: url('../images/plane1.gif') no-repeat center center;
+}
