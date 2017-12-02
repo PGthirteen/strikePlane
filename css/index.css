@@ -5,10 +5,52 @@
 	margin-top: 80px;
 	background: url('../images/bg2.png') no-repeat center center;
 	position: relative;
+	overflow: hidden;
 }
 .play{
 	width: 66px;
 	height: 80px;
 	position: absolute;
 	background: url('../images/plane1.gif') no-repeat center center;
+}
+.play.destroy{
+	background: url('../images/plane2.gif') no-repeat center center;
+
+}
+.bullet{
+	width: 6px;
+	height: 14px;
+	position: absolute;
+	background: url('../images/bullet1.png') no-repeat center center;
+
+}
+.enemy{
+	position: absolute;
+}
+.small{
+	width: 34px;
+	height: 24px;
+	background: url('../images/enemy1_fly_1.png') no-repeat center center;
+}
+.small.destroy{
+	background: url('../images/enemy1_fly_3.gif') no-repeat center center;
+
+}
+.middle{
+	width: 45px;
+	height: 64px;
+	background: url('../images/enemy2_fly_1.png') no-repeat center center;
+}
+.middle.destroy{
+	background: url('../images/enemy2_fly_3.gif') no-repeat center center;
+
+}
+.big{
+	width: 109px;
+	height: 168px;
+	background: url('../images/enemy3_fly_1.png') no-repeat center center;
+}
+.big.destroy{
+	background: url('../images/enemy3_fly_3.gif') no-repeat center center;
+
 }
